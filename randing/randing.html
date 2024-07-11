@@ -6,10 +6,14 @@
     <link rel="stylesheet" href="randing.css">
     <script src="https://kit.fontawesome.com/49429bc389.js" crossorigin="anonymous"></script>
     <script src="rnading.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 </head>
 <body>
 <header>
-    <div>LSH Portfolio</div>
+    <div>
+        LSH Portfolio
+        <a href="#"></a>
+    </div>
     <div class="chose-header">
         <div>HOME</div>
         <div>About me</div>
@@ -73,7 +77,7 @@
     <div>
         <h2>Java 백엔드 개발자 양성 프로그램 수료</h2>
         <h2>2024.05.16 ~ 2024.07.26</h2>
-        <div>ex)부족한 실무경험과 개발능력 향상을 위해서 java백엔드 개발자 양성 프로그램에 참여했습니다.</div>
+        <div>ex)부족한 프로젝트경험과 개발능력 향상을 위해서 java백엔드 개발자 양성 프로그램에 참여했습니다.</div>
     </div>
     <div>
         <h2>정보처리기사 자격증 취득</h2>
@@ -85,19 +89,22 @@
     <h2>Project</h2>
 </section>
 <section class="contact_section">
+    <form>
     <label>
-        <input type="text" placeholder="성함">
+        <input type="text" name="name" placeholder="성함">
+    </label>
+        <label id="">
+            <input type="text" name="email" placeholder=" 이메일">
+        </label>
+    <label>
+        <input type="text" name="title" placeholder="제목">
     </label>
     <label>
-        <input type="text" placeholder="회신받을 email">
+        <input type="text" name="content" placeholder="내용">
     </label>
-    <label>
-        <input type="text" placeholder="제목">
-    </label>
-    <label>
-        <input type="text" placeholder="내용">
-    </label>
-    <button>보내기</button>
+    <button type="submit">보내기</button>
+    </form>
+
     <div>Email : ex@gmail.com</div>
     <div>github : https://github.com/123456</div>
 </section>
